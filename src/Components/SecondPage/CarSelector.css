@@ -1,0 +1,88 @@
+/* General Page Styling */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('C:\Users\Sam_27\OneDrive\Desktop\NewCar\nav-p\src\assets\Images\Car2.webp'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.564);
+  padding: 40px;
+  border: solid white 1px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+.dropdown-container label {
+  display: block;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.dropdown-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.search-button {
+  margin-top: 10%;
+  width: 50%;
+  height: 20%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+.page-container {
+  padding: 20px;
+}
+
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.dropdown-container {
+  margin: 10px 0;
+}
+
+.search-button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}

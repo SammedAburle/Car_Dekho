@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.022); 
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .navbar-search {
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+  
+  .search-input {
+    margin-top: 3%;
+    width: 50%;
+    margin-left: 35%;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  
+  .navbar-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .wishlist, .login {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .wishlist span, .login span {
+    margin-left: 5px;
+    font-size: 16px;
+  }
+  
+  .navbar-logo{
+    margin-top: 2%;
+    position: fixed;
+  }
+  
